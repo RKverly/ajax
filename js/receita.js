@@ -30,7 +30,7 @@ function getReceitaById(receitaId) {
 
 
 function getReceita() {
-    let url = `rafaelescalfoni.github.io/desenv_web/receitas.json`;
+    let url = `https:rafaelescalfoni.github.io/desenv_web/receitas.json`;
     //criando o XMLHttpRequest
     let xhttp = new XMLHttpRequest();
     let receitasList;
