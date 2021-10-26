@@ -1,4 +1,4 @@
-window.onload = function() {
+/*window.onload = function() {
     let receita = {};
     receita.nome = sessionStorage.getItem("nome");
     receita.descricao = sessionStorage.getItem("descricao");
@@ -67,4 +67,4 @@ function carregaModoPreparo(modoPreparo){
         li.appendChild(liTexto);
         ul.appendChild(li);
     });
-}
+}*/
