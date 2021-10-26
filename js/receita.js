@@ -30,7 +30,7 @@ function getReceitaById(receitaId) {
 
 
 function getReceita() {
-    let url = https:rafaelescalfoni.github.io/desenv_web/receitas.json;
+    let url = "https:rafaelescalfoni.github.io/desenv_web/receitas.json";
     //criando o XMLHttpRequest
     let xhttp = new XMLHttpRequest();
     let receitasList;
@@ -45,7 +45,7 @@ function getReceita() {
                 criaDivReceita(receita);
             })
         } else if (xhttp.readyState == 4 && xhttp.status!=200) {
-            console.log("deu zebra na requisição");
+            console.log("não requisitou");
         }
     };
     
